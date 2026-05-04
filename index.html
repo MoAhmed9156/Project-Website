@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
+    <title>AquaCore - IoT Aquaculture Command Center</title>
+=======
+    <title>AquaCore</title>
+    <!-- Google Fonts -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+<<<<<<< HEAD
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-error-bars@2.0.0"></script>
+=======
+    <!-- Logo -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+  </head>
+  <body>
+<<<<<<< HEAD
+    <!-- Screen Shake Container -->
+    <div id="shake-container">
+      <!-- Comic Book Header -->
+      <header class="comic-header">
+        <div class="header-left">
+          <div class="school-badge">
+            <div class="badge-shield">
+              <span class="badge-text">The Red Sea</span>
+              <span class="badge-stem">STEM</span>
+              <div class="badge-icons">π ⚛ 🔬</div>
+            </div>
+          </div>
+          <div class="group-badge">
+            <span class="group-label">GROUP NO.</span>
+            <span class="group-number">16211</span>
+            <div class="seahorse-icon">🦑</div>
+          </div>
+        </div>
+
+        <div class="header-center">
+          <h1 class="main-title">AQUACORE</h1>
+          <div class="keywords-bar">
+            <span class="keywords-label">KEY WORDS:</span>
+            <span class="keyword-tag tag-aqua">AQUA</span>
+            <span class="keyword-tag tag-auto">AUTOMATION</span>
+            <span class="keyword-tag tag-fish">FISH</span>
+            <span class="keyword-tag tag-water">WATER</span>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="header-school-info">
+            <span class="header-grade-info">GRADE 11 SEMESTER: 2025/2026</span>
+            <span class="header-school-name">RED SEA STEM SCHOOL</span>
+          </div>
+          <div class="ministry-badge">
+            <div class="ministry-seal">
+              <span>MINISTRY OF EDUCATION AND TECHNICAL EDUCATION</span>
+              <span class="arabic-text"
+                >وزارة التربية والتعليم والتعليم الفني</span
+              >
+            </div>
+=======
+    <!-- Screen Shake Container for Alert Effects -->
+    <div id="shake-container">
+      <!-- ============================================
+             HEADER SECTION - Comic Book Style
+             Layout: [School Circle] [Center Texts] [Ministry Circle]
+             ============================================ -->
+      <header class="comic-header">
+        <!-- LEFT SIDE: School Badge (Circular, Large) -->
+        <div class="header-left">
+          <div class="school-badge-circle">
+            <img
+              src="stem.jpg"
+              alt="Red Sea STEM School"
+              class="badge-image-circle"
+            />
+          </div>
+        </div>
+
+        <!-- CENTER: All Texts Stacked Vertically -->
+        <div class="header-center">
+          <!-- Main Title -->
+          <h1 class="main-title">AQUACORE</h1>
+          <!-- Keywords Bar -->
+          <div class="keywords-bar">
+            <span class="keywords-label">KEY WORDS:</span>
+            <span class="keyword-tag tag-aqua">AQUACULTURE</span>
+            <span class="keyword-tag tag-auto">AUTOMATION</span>
+            <span class="keyword-tag tag-fish">FEEDBACK-LOOP</span>
+            <span class="keyword-tag tag-water">SUSTAINABILITY</span>
+          </div>
+          <!-- School Name -->
+          <div class="header-school-info">
+            <!-- Group Number - Below Grade Info -->
+            <div class="header-group-inline">
+              <span class="group-label-inline">GROUP NO.</span>
+              <span class="group-number-inline">16211</span>
+            </div>
+            <span class="header-school-name"
+              >Grade 11 - Semester 2 (25 / 26)</span
+            >
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: Ministry Badge (Circular, Large) -->
+        <div class="header-right">
+          <div class="ministry-badge-circle">
+            <img
+              src="education.png"
+              alt="Ministry of Education"
+              class="ministry-image-circle"
+            />
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+          </div>
+        </div>
+      </header>
+
+<<<<<<< HEAD
+      <!-- Team Members Banner -->
+=======
+      <!-- ============================================
+             TEAM MEMBERS BANNER
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <div class="team-banner">
+        <div class="team-label">
+          <span class="speech-bubble">TEAM MEMBERS</span>
+        </div>
+        <div class="team-members">
+          <span class="member-tag">OMAR ABDELRAHMAN</span>
+          <span class="member-separator">⚡</span>
+          <span class="member-tag">MOAMEN MOHAMED</span>
+          <span class="member-separator">⚡</span>
+          <span class="member-tag">MOHAMED AHMED</span>
+          <span class="member-separator">⚡</span>
+          <span class="member-tag">YASSIN RAMADAN</span>
+        </div>
+      </div>
+
+<<<<<<< HEAD
+      <!-- Navigation Tabs -->
+=======
+      <!-- ============================================
+             NAVIGATION TABS
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <nav class="comic-nav">
+        <button class="nav-btn active" data-page="dashboard">
+          📊 DASHBOARD
+        </button>
+        <button class="nav-btn" data-page="prototype">🔬 PROTOTYPE</button>
+        <button class="nav-btn" data-page="team">👥 SUPER-TEAM</button>
+        <button class="nav-btn" data-page="recovery">⏱️ RECOVERY LOG</button>
+      </nav>
+
+<<<<<<< HEAD
+      <!-- MAIN DASHBOARD PAGE -->
+=======
+      <!-- ============================================
+             MAIN DASHBOARD PAGE
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <main id="page-dashboard" class="comic-page active">
+        <div class="dashboard-grid">
+          <!-- Live Sensors Panel -->
+          <section class="comic-panel panel-sensors">
+            <div class="panel-header">
+              <h2 class="panel-title">🌡️ LIVE SENSORS</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="sensor-cards">
+                <div class="sensor-card" id="temp-card">
+                  <div class="sensor-icon">🌡️</div>
+                  <div class="sensor-value" id="temp-value">--</div>
+                  <div class="sensor-unit">°C</div>
+                  <div class="sensor-label">TEMPERATURE</div>
+                  <div class="sensor-range">
+                    Range: <span id="temp-range">20-28</span>°C
+                  </div>
+                  <div class="sensor-status" id="temp-status">● OPTIMAL</div>
+                </div>
+                <div class="sensor-card" id="light-card">
+                  <div class="sensor-icon">💡</div>
+                  <div class="sensor-value" id="light-value">--</div>
+                  <div class="sensor-unit">LUX</div>
+                  <div class="sensor-label">LIGHT INTENSITY</div>
+                  <div class="sensor-range">
+                    Range: <span id="light-range">500-2000</span>
+                  </div>
+                  <div class="sensor-status" id="light-status">● OPTIMAL</div>
+                </div>
+                <div class="sensor-card" id="flow-card">
+                  <div class="sensor-icon">💧</div>
+                  <div class="sensor-value" id="flow-value">--</div>
+                  <div class="sensor-unit">L/min</div>
+                  <div class="sensor-label">WATER FLOW</div>
+                  <div class="sensor-range">
+                    Range: <span id="flow-range">2-8</span>
+                  </div>
+                  <div class="sensor-status" id="flow-status">● OPTIMAL</div>
+                </div>
+              </div>
+<<<<<<< HEAD
+              <div class="species-selector">
+                <label class="comic-label">TARGET SPECIES:</label>
+                <select id="species-select" class="comic-select">
+                  <option value="tilapia">
+                    Nile Tilapia (Optimal: 25-28°C, 800-1500 Lux, 4-6 L/min)
+                  </option>
+                  <option value="catfish">
+                    African Catfish (Optimal: 26-30°C, 500-1000 Lux, 3-5 L/min)
+                  </option>
+                  <option value="mullet">
+                    Grey Mullet (Optimal: 20-25°C, 1000-2000 Lux, 5-8 L/min)
+                  </option>
+                  <option value="barramundi">
+                    Barramundi (Optimal: 27-30°C, 1500-2500 Lux, 6-10 L/min)
+                  </option>
+                </select>
+=======
+              <!-- ابدل الجزء ده في الـ Live Sensors Panel -->
+              <div class="species-selector">
+                <label class="comic-label">TARGET SPECIES:</label>
+                <div
+                  id="species-display"
+                  class="comic-select"
+                  style="cursor: default; background: #f5f5f5"
+                >
+                  Nile Tilapia (Optimal: 26-30°C, 1000-2000 Lux, 0.05-0.30 m/s)
+                </div>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+              </div>
+            </div>
+          </section>
+
+          <!-- Recovery Timer Panel -->
+          <section class="comic-panel panel-recovery">
+            <div class="panel-header">
+              <h2 class="panel-title">⏱️ RECOVERY TIMER</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="recovery-stats">
+                <div class="recovery-stat">
+                  <span class="stat-label">TEMP RECOVERY</span>
+                  <span class="stat-value" id="temp-recovery">00:00:00</span>
+                </div>
+                <div class="recovery-stat">
+                  <span class="stat-label">LIGHT RECOVERY</span>
+                  <span class="stat-value" id="light-recovery">00:00:00</span>
+                </div>
+                <div class="recovery-stat">
+                  <span class="stat-label">FLOW RECOVERY</span>
+                  <span class="stat-value" id="flow-recovery">00:00:00</span>
+                </div>
+                <div class="recovery-stat total-stat">
+                  <span class="stat-label">TOTAL SYSTEM TIME</span>
+                  <span class="stat-value" id="total-recovery">00:00:00</span>
+                </div>
+              </div>
+              <div class="recovery-status" id="recovery-status">
+                <span class="status-indicator green">●</span> ALL SYSTEMS
+                NOMINAL
+              </div>
+            </div>
+          </section>
+
+          <!-- Charts Panel -->
+          <section class="comic-panel panel-charts">
+            <div class="panel-header">
+              <h2 class="panel-title">📈 SCIENTIFIC PANELS</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="time-display">
+                <span class="time-label">TIME SINCE LAUNCH:</span>
+                <span class="time-value" id="launch-timer">00:00:00</span>
+              </div>
+              <div class="charts-grid">
+                <div class="chart-container">
+                  <h3 class="chart-title">🌡️ TEMPERATURE TREND</h3>
+                  <canvas id="tempChart"></canvas>
+                </div>
+                <div class="chart-container">
+                  <h3 class="chart-title">💡 LIGHT INTENSITY TREND</h3>
+                  <canvas id="lightChart"></canvas>
+                </div>
+                <div class="chart-container">
+                  <h3 class="chart-title">💧 WATER FLOW TREND</h3>
+                  <canvas id="flowChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- System Status Panel -->
+          <section class="comic-panel panel-status">
+            <div class="panel-header">
+              <h2 class="panel-title">🖥️ SYSTEM STATUS</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="status-grid">
+                <div class="status-item">
+                  <span class="status-dot" id="esp-status">🟢</span>
+                  <span class="status-text">ESP32 CONNECTED</span>
+                </div>
+                <div class="status-item">
+                  <span class="status-dot" id="firebase-status">🟢</span>
+                  <span class="status-text">FIREBASE ONLINE</span>
+                </div>
+                <div class="status-item">
+                  <span class="status-dot" id="pump-status">🟢</span>
+                  <span class="status-text">PUMP ACTIVE</span>
+                </div>
+                <div class="status-item">
+<<<<<<< HEAD
+                  <span class="status-dot" id="filter-status">🟢</span>
+                  <span class="status-text">FILTER CLEAN</span>
+=======
+                  <span class="status-dot" id="heater-status">🟢</span>
+                  <span class="status-text">HEATER READY</span>
+                </div>
+                <div class="status-item">
+                  <span class="status-dot" id="fan-status">🟢</span>
+                  <span class="status-text">FANS READY</span>
+                </div>
+                <div class="status-item">
+                  <span class="status-dot" id="lamp-status">🟢</span>
+                  <span class="status-text">LAMP READY</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                </div>
+              </div>
+              <div class="last-update">
+                Last Update: <span id="last-update">--</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+<<<<<<< HEAD
+      <!-- PROTOTYPE PAGE -->
+=======
+      <!-- ============================================
+             PROTOTYPE PAGE
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <main id="page-prototype" class="comic-page">
+        <div class="prototype-grid">
+          <section class="comic-panel panel-prototype-main">
+            <div class="panel-header">
+              <h2 class="panel-title">🔬 THE PROTOTYPE</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="prototype-section">
+                <h3 class="section-title comic-bubble">
+<<<<<<< HEAD
+                  RECYCLE & FEEDBACK LOOP
+                </h3>
+                <p class="comic-text">
+                  Our AquaCore system implements a
+                  <strong>closed-loop aquaculture</strong> design that recycles
+                  95% of water through biological filtration. The feedback loop
+                  continuously monitors water quality parameters and
+                  automatically adjusts pump flow rates to maintain optimal
+                  conditions for fish growth.
+=======
+                  CLOSED-LOOP FEEDBACK CONTROL
+                </h3>
+                <p class="comic-text">
+                  Our AquaCore system implements a
+                  <strong>closed-loop feedback control system</strong> that
+                  monitors three crucial environmental parameters:
+                  <strong>1) Temperature</strong>,
+                  <strong>2) Light Intensity</strong>, and
+                  <strong>3) Water Flow Rate</strong>. The system automatically
+                  activates actuators (heater, cooling fans, water pump, and
+                  lighting system) to maintain optimal conditions for the
+                  selected aquatic species without any human interaction.
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                </p>
+                <div class="loop-diagram">
+                  <div class="loop-step">🐟 Fish Tank</div>
+                  <div class="loop-arrow">→</div>
+<<<<<<< HEAD
+                  <div class="loop-step">🧪 Bio-Filter</div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">📡 Sensors</div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">🤖 ESP32 Control</div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">💧 Clean Water Return</div>
+                </div>
+              </div>
+
+=======
+                  <div class="loop-step">📡 Sensors (Temp/Light/Flow)</div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">🤖 ESP32 Controller</div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">
+                    ⚡ Actuators (Heater/Pump/Fan/Lamp)
+                  </div>
+                  <div class="loop-arrow">→</div>
+                  <div class="loop-step">✅ Optimal Conditions</div>
+                </div>
+              </div>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+              <div class="prototype-section">
+                <h3 class="section-title comic-bubble">
+                  SOLVING EGYPT'S GRAND CHALLENGES
+                </h3>
+                <div class="challenges-grid">
+                  <div class="challenge-card challenge-agriculture">
+                    <div class="challenge-icon">🌾</div>
+<<<<<<< HEAD
+                    <h4>AGRICULTURE BASE</h4>
+                    <p>
+                      Egypt faces water scarcity with only 570 m³ per capita
+                      annually. AquaCore reduces water usage by 90% compared to
+                      traditional aquaculture, enabling sustainable fish
+                      production in arid regions.
+=======
+                    <h4>AGRICULTURAL BASE</h4>
+                    <p>
+                      Egypt faces water scarcity with only
+                      <strong>570 m³ per capita annually</strong>. AquaCore
+                      reduces water usage by <strong>90%</strong> compared to
+                      traditional aquaculture, enabling sustainable fish
+                      production in arid regions. With Egypt's population
+                      exceeding <strong>100 million</strong>, the demand for
+                      food continues to rise while water resources remain
+                      limited.
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                    </p>
+                  </div>
+                  <div class="challenge-card challenge-pollution">
+                    <div class="challenge-icon">🏭</div>
+                    <h4>POLLUTION REDUCTION</h4>
+                    <p>
+                      Traditional fish farms discharge nutrient-rich waste into
+                      the Nile, causing eutrophication. Our closed-loop system
+<<<<<<< HEAD
+                      captures 100% of waste for biogas production and organic
+                      fertilizer.
+=======
+                      captures <strong>100% of waste</strong> for biogas
+                      production and organic fertilizer, addressing pollution
+                      fouling our air, water, and soil.
+                    </p>
+                  </div>
+                  <div class="challenge-card challenge-population">
+                    <div class="challenge-icon">👥</div>
+                    <h4>POPULATION GROWTH</h4>
+                    <p>
+                      Egypt is the
+                      <strong>most populated country in the Middle East</strong>
+                      and one of the fastest growing populations. This project
+                      directly tackles food security challenges by providing a
+                      <strong>portable, cost-effective, and automated</strong>
+                      solution for small-scale aquaculture.
+                    </p>
+                  </div>
+                  <div class="challenge-card challenge-recycling">
+                    <div class="challenge-icon">♻️</div>
+                    <h4>RECYCLED MATERIALS</h4>
+                    <p>
+                      The prototype body is constructed from
+                      <strong>recycled materials</strong>, demonstrating how
+                      garbage and waste can be utilized for economic and
+                      environmental purposes, aligning with Egypt's
+                      sustainability goals.
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                    </p>
+                  </div>
+                </div>
+              </div>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+              <div class="prototype-section">
+                <h3 class="section-title comic-bubble">
+                  TECHNICAL SPECIFICATIONS
+                </h3>
+                <div class="specs-table">
+                  <div class="spec-row">
+                    <span class="spec-label">Tank Volume:</span>
+<<<<<<< HEAD
+                    <span class="spec-value">200 Liters</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Max Fish Capacity:</span>
+                    <span class="spec-value">50 Tilapia (1kg each)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Power Consumption:</span>
+                    <span class="spec-value">45W (Solar Compatible)</span>
+=======
+                    <span class="spec-value">10 Liters</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Max Fish Capacity:</span>
+                    <span class="spec-value">4 Tilapia (20g each)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Power Consumption:</span>
+                    <span class="spec-value">235W (Maximum)</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Water Recycling Rate:</span>
+                    <span class="spec-value">95% Closed Loop</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">IoT Protocol:</span>
+<<<<<<< HEAD
+                    <span class="spec-value">MQTT over WiFi</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Data Update Interval:</span>
+                    <span class="spec-value">5 Seconds</span>
+=======
+                    <span class="spec-value">MQTT over WiFi (ESP32)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Data Update Interval:</span>
+                    <span class="spec-value">4 Seconds</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Microcontroller:</span>
+                    <span class="spec-value">ESP32 (520 KB SRAM)</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Operating Duration:</span>
+                    <span class="spec-value">6 Consecutive Hours</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+<<<<<<< HEAD
+      <!-- TEAM PAGE -->
+=======
+      <!-- ============================================
+             TEAM PAGE
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <main id="page-team" class="comic-page">
+        <div class="team-grid">
+          <section class="comic-panel panel-team">
+            <div class="panel-header">
+              <h2 class="panel-title">🦸 SUPER-TEAM</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="hero-cards">
+                <div class="hero-card hero-mohamed">
+                  <div class="hero-frame">
+                    <div class="hero-avatar">👨‍💻</div>
+                    <div class="hero-badge">TEAM LEADER</div>
+                  </div>
+                  <div class="hero-info">
+<<<<<<< HEAD
+                    <h3 class="hero-name">MOHAMED AHMED</h3>
+=======
+                    <h3 class="hero-name">MOHAMMAD AHMED</h3>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                    <div class="hero-powers">
+                      <span class="power-tag">💻 CODER</span>
+                      <span class="power-tag">🔧 PROTOTYPE</span>
+                      <span class="power-tag">🎨 3D MODELS</span>
+                    </div>
+                    <p class="hero-bio">
+                      The mastermind behind AquaCore's code architecture and
+                      physical prototype. Leads the team with technical
+                      expertise in Arduino, ESP32 programming, and 3D modeling
+                      for custom sensor housings.
+                    </p>
+                    <div class="hero-stats">
+                      <div class="stat-bar">
+<<<<<<< HEAD
+                        <span class="stat-name">CODING</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 95%"></div>
+                        </div>
+                        <span class="stat-number">95%</span>
+=======
+                        <span class="stat-name">ESP CODING</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 90%"></div>
+                        </div>
+                        <span class="stat-number">85%</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">HARDWARE</span>
+                        <div class="stat-fill">
+<<<<<<< HEAD
+                          <div class="stat-progress" style="width: 90%"></div>
+                        </div>
+                        <span class="stat-number">90%</span>
+=======
+                          <div class="stat-progress" style="width: 93%"></div>
+                        </div>
+                        <span class="stat-number">95%</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">3D DESIGN</span>
+                        <div class="stat-fill">
+<<<<<<< HEAD
+                          <div class="stat-progress" style="width: 85%"></div>
+                        </div>
+                        <span class="stat-number">85%</span>
+=======
+                          <div class="stat-progress" style="width: 100%"></div>
+                        </div>
+                        <span class="stat-number">100%</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-card hero-moamen">
+                  <div class="hero-frame">
+                    <div class="hero-avatar">🎨</div>
+                    <div class="hero-badge">DESIGNER</div>
+                  </div>
+                  <div class="hero-info">
+<<<<<<< HEAD
+                    <h3 class="hero-name">MOAMEN MOHAMED</h3>
+=======
+                    <h3 class="hero-name">MOAMEN MOHAMMAD</h3>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                    <div class="hero-powers">
+                      <span class="power-tag">🎨 DESIGNER</span>
+                      <span class="power-tag">💻 DEVELOPER</span>
+                    </div>
+                    <p class="hero-bio">
+                      The creative force behind AquaCore's visual identity.
+                      Designed the comic-book dashboard UI, system branding, and
+                      all graphical assets. Also contributes to frontend
+                      development.
+                    </p>
+                    <div class="hero-stats">
+                      <div class="stat-bar">
+<<<<<<< HEAD
+                        <span class="stat-name">UI/UX DESIGN</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 98%"></div>
+                        </div>
+                        <span class="stat-number">98%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">FRONTEND</span>
+=======
+                        <span class="stat-name">WEBSITE DEVELOPMENT</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 80%"></div>
+                        </div>
+                        <span class="stat-number">80%</span>
+                      </div>
+                      <div class="stat-bar">
+<<<<<<< HEAD
+                        <span class="stat-name">BRANDING</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 95%"></div>
+                        </div>
+                        <span class="stat-number">95%</span>
+=======
+                        <span class="stat-name">POSTER DESIGN</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 100%"></div>
+                        </div>
+                        <span class="stat-number">100%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">APP DEVELOPMENT</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 89%"></div>
+                        </div>
+                        <span class="stat-number">89%</span>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-card hero-yassin">
+                  <div class="hero-frame">
+                    <div class="hero-avatar">📦</div>
+                    <div class="hero-badge">MATERIALS</div>
+                  </div>
+                  <div class="hero-info">
+                    <h3 class="hero-name">YASSIN RAMADAN</h3>
+                    <div class="hero-powers">
+                      <span class="power-tag">📦 MATERIALS</span>
+                      <span class="power-tag">🔍 RESEARCH</span>
+                    </div>
+                    <p class="hero-bio">
+                      The logistics expert who sourced all components for the
+                      prototype. Researched optimal sensor specifications,
+                      sourced waterproof materials, and managed the project
+                      procurement budget.
+                    </p>
+                    <div class="hero-stats">
+                      <div class="stat-bar">
+                        <span class="stat-name">PROCUREMENT</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 92%"></div>
+                        </div>
+                        <span class="stat-number">92%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">RESEARCH</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 88%"></div>
+                        </div>
+                        <span class="stat-number">88%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">BUDGET MGMT</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 85%"></div>
+                        </div>
+                        <span class="stat-number">85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-card hero-omar">
+                  <div class="hero-frame">
+                    <div class="hero-avatar">✍️</div>
+                    <div class="hero-badge">WRITER</div>
+                  </div>
+                  <div class="hero-info">
+                    <h3 class="hero-name">OMAR ABDELRAHMAN</h3>
+                    <div class="hero-powers">
+                      <span class="power-tag">✍️ WRITER</span>
+                      <span class="power-tag">📊 DOCUMENTATION</span>
+                    </div>
+                    <p class="hero-bio">
+                      The documentation specialist who crafted all project
+                      reports, research papers, and technical documentation.
+                      Ensures the team's work is properly recorded and presented
+                      to stakeholders.
+                    </p>
+                    <div class="hero-stats">
+                      <div class="stat-bar">
+                        <span class="stat-name">TECHNICAL WRITING</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 96%"></div>
+                        </div>
+                        <span class="stat-number">96%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">RESEARCH</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 90%"></div>
+                        </div>
+                        <span class="stat-number">90%</span>
+                      </div>
+                      <div class="stat-bar">
+                        <span class="stat-name">PRESENTATION</span>
+                        <div class="stat-fill">
+                          <div class="stat-progress" style="width: 88%"></div>
+                        </div>
+                        <span class="stat-number">88%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+<<<<<<< HEAD
+      <!-- RECOVERY LOG PAGE -->
+=======
+      <!-- ============================================
+             RECOVERY LOG PAGE
+             ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+      <main id="page-recovery" class="comic-page">
+        <div class="recovery-grid">
+          <section class="comic-panel panel-recovery-log">
+            <div class="panel-header">
+              <h2 class="panel-title">📋 RECOVERY LOG</h2>
+              <div class="panel-corner corner-tl"></div>
+              <div class="panel-corner corner-tr"></div>
+              <div class="panel-corner corner-bl"></div>
+              <div class="panel-corner corner-br"></div>
+            </div>
+            <div class="panel-content">
+              <div class="recovery-summary">
+                <div class="summary-card">
+                  <span class="summary-label">TOTAL ALERTS</span>
+                  <span class="summary-value" id="total-alerts">0</span>
+                </div>
+                <div class="summary-card">
+                  <span class="summary-label">AVG RECOVERY TIME</span>
+                  <span class="summary-value" id="avg-recovery">00:00:00</span>
+                </div>
+                <div class="summary-card">
+                  <span class="summary-label">LONGEST OUTAGE</span>
+                  <span class="summary-value" id="longest-outage"
+                    >00:00:00</span
+                  >
+                </div>
+                <div class="summary-card">
+                  <span class="summary-label">SYSTEM UPTIME</span>
+                  <span class="summary-value" id="system-uptime">00:00:00</span>
+                </div>
+              </div>
+
+              <div class="log-table-container">
+                <table class="comic-table">
+                  <thead>
+                    <tr>
+                      <th>⚡ EVENT #</th>
+                      <th>📡 PARAMETER</th>
+                      <th>📊 VALUE</th>
+                      <th>🎯 OPTIMAL RANGE</th>
+                      <th>🕐 START TIME</th>
+                      <th>🕐 END TIME</th>
+<<<<<<< HEAD
+                      <th>⏱️ DURATION</th>
+=======
+                      <th>⏱️ RECOVERY TIME</th>
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+                      <th>✅ STATUS</th>
+                    </tr>
+                  </thead>
+                  <tbody id="recovery-log-body">
+                    <tr class="empty-row">
+                      <td colspan="8">
+                        No recovery events recorded yet. System is running
+                        optimally!
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="export-section">
+                <button
+                  class="comic-btn btn-export"
+                  onclick="exportRecoveryLog()"
+                >
+                  📥 EXPORT LOG (CSV)
+                </button>
+                <button
+                  class="comic-btn btn-clear"
+                  onclick="clearRecoveryLog()"
+                >
+                  🗑️ CLEAR LOG
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <!-- /shake-container -->
+
+<<<<<<< HEAD
+    <!-- ALERT MODAL -->
+=======
+    <!-- ============================================
+         ALERT MODAL
+         ============================================ -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+    <div id="alert-modal" class="alert-modal hidden">
+      <div class="alert-backdrop"></div>
+      <div class="alert-content">
+        <div class="alert-bubble">
+          <div class="alert-text" id="alert-text">WARNING!</div>
+          <div class="alert-subtext" id="alert-subtext">
+            Parameter out of range!
+          </div>
+          <div class="alert-value" id="alert-value"></div>
+        </div>
+        <button class="alert-dismiss" onclick="dismissAlert()">
+          ACKNOWLEDGE
+        </button>
+      </div>
+    </div>
+
+<<<<<<< HEAD
+=======
+    <!-- JavaScript Modules -->
+>>>>>>> 5433bed (New Files for website active with Firebase & Responsive)
+    <script src="firebase-config.js"></script>
+    <script src="recovery-timer.js"></script>
+    <script src="sensors.js"></script>
+    <script src="charts.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
